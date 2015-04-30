@@ -1,0 +1,48 @@
+/* Form Styles */
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+* {
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+form {
+  width: 50%;
+}
+
+.name, .email {
+  display: inline-block;
+  width: 48%;
+  margin-bottom: 15px;
+  border: none;
+  background: rgba(225,225,225,1);
+  color: rgba(50,50,50,1);
+}
+
+.name {
+  float: left;
+}
+
+.email {
+  float: right;
+}
+
+.message {
+  display: block;
+  width: 100%;
+  background: rgba(225,225,225,1);
+  border: none;
+  color: beige;
+}
+
+.send {
+  display: block;
+  background: white;
+  border: 5px solid rgba(200,200,200,1);
+  width: 25%;
+  color: rgba(50,50,50,1)
+}
