@@ -1,0 +1,77 @@
+/* form styles */
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+.background {
+  background: url("https://pbs.twimg.com/media/BcvmxibIYAAH8a3.jpg"); 
+  width: 50%;
+  opacity: .1;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  height: 65%;
+  margin: 0 auto;
+  z-index: -1;
+  left: 25%;
+  right: 25%;
+}
+
+form {
+  width: 50%;
+  margin: 0 auto;
+  background: transparent;
+  padding: 40px;
+  opacity: .75;
+}
+
+h1 {
+  font-family: sans-serif;
+  text-align: center;
+  color: rgba(0,0,0,.7);
+  text-transform: uppercase;
+}
+
+hr {
+  width: 25%;
+  border-color: rgba(0,0,0,0.7);
+}
+
+.name, .email {
+  padding: 15px;
+  width: 48%;
+  margin-bottom: 30px;
+  margin-top: 50px;
+  background: rgba(220,220,220,1);
+  border: none;
+}
+
+.name {
+  float: left;
+}
+
+.email {
+  float: right;
+}
+
+.message {
+  display: block;
+  padding: 15px;
+  width: 100%;
+  margin-bottom: 30px;
+  border: none;
+  background: rgba(220,220,220,1);
+}
+
+.send {
+  display: block;
+  width: 45%;
+  background: rgba(138,210,167,1);
+  color: #fff;
+  margin: 0 auto;
+  padding: 15px;
+  border: none;
+  text-transform: uppercase;
+  text-decoration: bolder;
+}
